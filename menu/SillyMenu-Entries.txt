@@ -134,11 +134,11 @@
    : TITLE:                               AUTHOR:                        PTS:
     01. Unified                          Zelax, NG                      8.414
     02. State of the Slayer              X-Men                          7.069
-    03. Arsantica 0 - the rough cut      Heaven / BeWu / Alien /        5.877
-                                          Bokanoid / Lowlife
+    03. Arsantica 0 - the rough cut      Heaven, BeWu, Alien,           5.877
+                                          Bokanoid, Lowlife
     04. Voxel 2k16                       Desire                         5.768
     05. T100                             Buddy & PPs                    4.684
-    06. Wesolych Swiąt 2022              Alex_D, Kaz, Mono, ZoltarX    4.456
+    06. Wesolych Swiat                   Alex_D, Kaz, Mono, ZoltarX     4.456
     07. Reguskor                         Poison                         4.321
     08. nyd23_invite                     Buddy & PPs                    3.965
 
@@ -169,7 +169,7 @@
      07. Atari Roots                      David Sives-Rutherford         5.226
          Laser Engraved Mouse Pad
     08. YMO - Rydeen                     Thomas Cherryhomes (TSCHAK)    5.100
-    09. 1972, Birth of Love              pépé / Hemoroids             4.947
+    09. 1972, Birth of Love              pepe / Hemoroids               4.947
      10. Kryptonite Topped Atari Symbol   David Sives-Rutherford (sives) 4.806
          in Resin Print
     11. Green White Power Ranger         Innuendo / DLT                 4.771
