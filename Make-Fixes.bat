@@ -10,6 +10,7 @@ call :fix       ATASCII     PONGFATH
 call :fix       GAME        ONESCAPE
 call :fix       GAME        LASTNIN2
 call :fix       GAME        PROHIBAN
+call :fix       MSX         HAPPYFOX
 goto :eof
 
 rem =========

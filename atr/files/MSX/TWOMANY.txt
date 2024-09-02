@@ -7,3 +7,4 @@ Runtime: 2:23
 Player:  Raster Music Tracker 1.28
 Info:    Stereo, 2nd POKEY required
          Mono mode friendly ;-)
+         Uses 2x speed

@@ -1,21 +1,11 @@
 Party:   Silly Venture 2k22 WE
 Compo:   ATARI XL/XE POKEY MSX COMPO
-Title:   ???
+Title:   Silk Adventure
 Author:  ??? ???
-         aka ???/???
-Runtime: ?:??
-Player:  Raster Music Tracker 1.28
-         Origial RMT file included
+         aka Blackwine/Dreamweb
+Runtime: 2:27
+
 Info:    Mono
-Info:    Mono, 2nd POKEY supported
-Info:    Stereo, 2nd POKEY required
 
-       "silky adventure"
-   by blackwine/dreamweb 2o22
-
-         silky smooth
-      synthesized dreams
-         released at
-      SILLY VENTURE 2K22
-        Winter Edition
-
+         Silky Smooth
+         Synthesized Dreams
