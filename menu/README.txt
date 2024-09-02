@@ -31,13 +31,12 @@ Gdansk,Poland
 https://files.scene.org/browse/
 parties/2022/sillyventure22we
 
-
-Menu background music "Sexquix"
+Menu background music "Waves"
 by Aleksander Martin (Alex)
 
 Background music for this readme
-"Max - Ingame" by Aleksander
-Martin (Alex)
+"Timeless Announcement - Loading #1"
+by Aleksander Martin (Alex)
 
 Stay Atari and see you at SV2k23 SE.
 

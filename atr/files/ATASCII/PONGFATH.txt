@@ -15,8 +15,8 @@ Info:    The actual video games
 
 Tools:   Done with playSCII,7.12.2022
 
-    Greetings to all Atarians and 
- all retro culture preservation teams
+   Greetings to all Atarians and 
+all retro culture preservation teams
 
 
      Be righteous, STay Atari ! 
@@ -27,5 +27,5 @@ _____________________________________
   |  _|___|  _|___|
   |_|     |_|
   
-  http://peek.poke.free.fr/st  
+  	 
 _____________________________________
