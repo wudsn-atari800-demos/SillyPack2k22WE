@@ -9,7 +9,7 @@ Player:  Raster Music Tracker 1.34
 
 Info:    Stereo, 2nd POKEY required
          Composed in October 2022 
-         Uses ~4x speed
+         Uses 4x speed
 
 Thanks to VinsCool for binary export.
 

@@ -1,7 +1,7 @@
 ;
 ;	>>> SillyPack Noter by JAC! <<<
 ;
-;	@com.wudsn.ide.asm.outputfile=README.xex
+;	@com.wudsn.ide.lng.outputfile=README.xex
 
 	.macro m_text
 	.byte $0d,$0a,$0a,$0d
