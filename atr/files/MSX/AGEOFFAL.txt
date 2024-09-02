@@ -1,0 +1,9 @@
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE POKEY MSX COMPO
+Title:   Age of Falcon
+Author:  Marek Pesout
+         aka Poison
+Runtime: 3:22
+Player:  Stereo Double CMC
+Info:    Stereo, 2nd POKEY required
+         Year 2022

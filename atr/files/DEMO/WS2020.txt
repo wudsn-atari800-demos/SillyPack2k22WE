@@ -1,0 +1,18 @@
+-------------------
+Silly Venture 2022 
+Winter Edition
+-------------------
+
+Kategoria: Atari Standard Demo (6502/GTIA)
+
+Tytu³: Weso³ych Œwi¹t 2022
+
+Autorzy: Alex_D, Kaz, Mono, ZoltarX
+
+Krótki opis: Demo graficzno-muzyczne Weso³ych Œwi¹t 2022 nawi¹zuj¹ce stylistyk¹ do lat 90-tych. 
+             Grafika: Alex_D, Kaz
+             Kod: Mono
+             Muzyka: ZoltarX
+             
+
+-----------------------------------------------------------------------------------------------------

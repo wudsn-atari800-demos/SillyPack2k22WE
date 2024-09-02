@@ -1,0 +1,9 @@
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE ATASCII COMPO
+Title:   Dragon Hunt
+Author:  ??? ???
+         aka Logiker/VCC
+
+Info:    Who is hunting whom?
+Tools:   Created using with ATASCII
+         exporter by Logiker

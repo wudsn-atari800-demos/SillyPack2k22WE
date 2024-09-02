@@ -1,0 +1,29 @@
+Party:   Silly Venture 2k22 WE
+Compo:   n/a
+Title:   sv22we_invite
+Author:  Ralf Patschke
+         aka PPS (idea,code)
+         Christian Duesterhoeft
+         aka Buddy (music)
+
+A small invitation for "Sillyventure
+2022 winter edition", held up between
+December 8th - 11th, 2022 in Gdansk.
+All infos will flush up at:
+
+https://sillyventure.eu
+
+Based on the great sv22se logo by
+mOOnie, I adapted it to a8 and then
+made the sv22we logo out of this
+conversion. The tool used for this
+was g2f by TeBe. For the sprites, I
+used great web tools by Bocianu.
+
+The RMT music is played back with
+lzss code based on routines by dmsc.
+
+All assembling works are done using
+WUDSN IDE by JAC! and thus used MADS
+Assembler by TeBe. Thanks for all
+your work, folks!

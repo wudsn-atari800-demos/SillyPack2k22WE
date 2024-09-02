@@ -1,0 +1,16 @@
+T100 by Buddy & PPs
+---------------------------
+Demo for all A8 with at least 48kB of memory. This time RAM below OS is used,
+so your ATARI should provide the option to switch off OS and use RAM below it.
+Greetings to all the people who can attend to sv22we!
+
+- music done by Buddy
+- source image of first T100 provided by Buddy, converted to A8 by PPs
+- NTSC & PAL friendly
+- automatic stereo POKEY replay
+- song replayed with LZSS routines based on VinsCool and DMSC work - stereo
+  detection and playback by PPs
+- images converted with g2f by TeBe
+- xex crunched from 32893 bytes using SuperPacker by TeBe
+- assembling all with MADS via WUDSN IDE
+- all the rest by PPs

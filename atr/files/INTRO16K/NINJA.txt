@@ -1,0 +1,8 @@
+Party: Silly Venture 2k22 Winter Edition
+Compo: Atari XL/XE - Intro 16kB
+Title: 2 Ninja or not 2 Ninja
+Author: emkay
+
+Notes: The music routine uses duplicate POKEY registers, which may cause some
+  channels to be played on a second POKEY on stereo equipped equipment. 
+  The intended effect is to use one POKEY, so it's best to turn stereo off.

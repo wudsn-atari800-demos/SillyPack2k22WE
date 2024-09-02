@@ -1,0 +1,14 @@
+nyd23_invite by Buddy & PPs
+---------------------------
+Music demo for all A8 with at least 48kB of memory. Hope you enjoy listening
+and get motivated to produce something for next New Years Disc :)
+Greetings to all the people who can attend to sv22we!
+
+- music and logo done by Buddy
+- font and putting all together by PPs
+- NTSC & PAL friendly
+- automatic stereo POKEY replay
+- songs replayed with LZSS routines based on VinsCool and DMSC work - stereo
+  detection and playback by PPs
+- logo created with g2f by TeBe
+- xex crunched from 35925 bytes using SuperPacker by TeBe

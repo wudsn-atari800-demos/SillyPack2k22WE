@@ -1,0 +1,17 @@
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE POKEY MSX COMPO
+Title:   Nothing's Holding Me Back
+Author:  Bryan Ness
+         aka Tobikomi
+Runtime: 2:34
+Player:  Raster Music Tracker 1.28
+         Origial RMT file included
+Info:    Mono, PAL
+         Finished by 5 December 2022
+
+Description:
+The world needs more funky grooves on
+the POKEY. This is where I step in!
+Made in Raster Music Tracker.
+
+NOTE: This entry loops!

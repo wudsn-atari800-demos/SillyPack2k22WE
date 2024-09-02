@@ -1,0 +1,19 @@
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE GAME COMPO
+Title:   Last Ninja II
+Author:  Jakub Husak (Atari Version)
+         Peter Scott (Original)
+
+Info:    The game was ported as close
+         as possible to the original,
+         with only minor changes in
+         the graphics. It is a full
+         port. All levels and the
+         game ending are present.
+         
+Porting began in 2013, and after
+nine years it was on 2022-12-08.
+
+You have to run the cartridge
+"SillyPack2k22WE-Last-Ninja-2.car"
+directly to play the game.

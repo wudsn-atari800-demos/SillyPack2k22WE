@@ -1,0 +1,10 @@
+Burn the Blitter
+--------------------
+
+Platform: Atari XL/XE 64kb with VBXE, single POKEY
+Compo: Atari VBXE
+
+Code: Heaven
+Music: Miker
+
+

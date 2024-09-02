@@ -1,0 +1,7 @@
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE ATASCII COMPO
+Title:   Tell Me the Truth, Honey
+Author:  Adam Wachowski
+         aka +Adam+
+
+Tools:   Graph2Font and Playscii

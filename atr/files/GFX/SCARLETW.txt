@@ -1,0 +1,10 @@
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE GFX COMPO
+Title:   Scarlet Waves
+Author:  Lukasz Pazera
+         aka Pazur/Zelax
+
+Info:    46 unique colors
+         Release date 08/12/2022
+
+Tools:   Graph2Font

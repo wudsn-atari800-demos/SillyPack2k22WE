@@ -1,0 +1,6 @@
+Autor: Krzysztof Rogowski (Krzyś)
+Kategoria: intro 256B
+Tytuł: Atari Cie Ma
+Napisane w: Quick Assembler/Bug Hunter
+Sprzęt: Atari 800XL
+Plik wykonywalny: mtrxlogo.xex

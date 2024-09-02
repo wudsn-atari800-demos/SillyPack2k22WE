@@ -1,0 +1,27 @@
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE GAME COMPO
+Title:   ProHiBan 4.4K+ (Sokoban)
+Author:  Bartosz Zbytniewski
+         aka zbyti (code,game gfx)
+         Bocianu Boczansky
+         aka bocianu (title gfx&code)
+         Sal Esquivel
+         aka Kijmann (msx)
+         Zdenek Eisenhammer
+         aka PG (msx)
+         Piotr Bendyk
+         aka XTD (msx),
+         Michal Brzeski
+         aka Michu (msx)
+         Pawel Grabowski (msx)
+
+Info:    Party Edition (Ver.0.95)
+
+
+
+Tools:   Mad Pascal (TeBe)
+         xBootDOS (xxl)
+
+You have to boot the disk
+"SillyPack2k22WE-ProHiBan.atr"
+directly to play the game.

@@ -1,0 +1,6 @@
+TITLE:   InfiniHeli256
+AUTHOR:  Jakub Husak
+DATE:    19.11.2022
+PARTY:   SV2022 WE
+COMPO:   256 bytes intro
+PLATFORM:Stock Atari XL/XE (one direct SO call to set graphics mode)

@@ -1,0 +1,37 @@
+   title: Silly Lander
+ version: 1.0
+released: 2022-12-10
+    code: SuN / Tight & tr1x / Agenda
+   party: Silly Venture 2022 WE
+category: Atari XL/XE Game 256B
+hardware: original Atari XL/XE 64KB PAL
+
+The aim of the game is to land gently on the landing site
+while avoiding crashing into the mountains.
+
+Successfully tested with Altirra/x64 3.90: XE PAL / 64K.
+
+Successfully tested with original Atari 65XE ECI + AVGCART.
+
+Successfully tested with original Atari 65XE ECI + Lotharek's Sio2sd Ver. 1.3.
+Turn the computer on while you are holding down the OPTION key.
+
+Successfully tested with Atari XL/XE OS rev. 2 (1983-05-10).
+Not guaranteed to work with other OS versions.
+
+Run it with clean memory.
+
+May not work with some DOSes or file managers.
+Please, run this game directly, without using DOS.
+
+/--\---/-/-\--\\-/--\\--/--\-\-\--/-/-\-/\\-\
+|                                           |
+|              "Silly Lander"               |
+|           Atari XL/XE Game 256B           |
+|           Silly Venture 2022 WE           |
+|     [ original Atari XL/XE 64KB PAL ]     |
+|                                           |
+|    code by SuN / Tight & tr1x / Agenda    |
+|                                           |
+\--/\--/\/-\---\-/--/\--\\-\/\-\/-/\\-\-/\--/
+

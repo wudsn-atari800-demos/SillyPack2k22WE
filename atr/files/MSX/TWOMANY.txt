@@ -1,0 +1,9 @@
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE POKEY MSX COMPO
+Title:   (2) Many
+Author:  Filip Golewski 
+         aka ZoltarX/NG
+Runtime: 2:23
+Player:  Raster Music Tracker 1.28
+Info:    Stereo, 2nd POKEY required
+         Mono mode friendly ;-)

@@ -1,0 +1,18 @@
+Arsantica 0 - the rough cut
+---------------------------
+
+Platform: Atari XL/XE 64kb 
+Compo: Atari Demo
+
+Code: Heaven
+Music: BeWu
+Graphics: Alien,Bokanoid,Lowlife
+
+This is the early prototype of Arsantica 1 demo with
+some alternative music which was later replaced in
+the final version. Some parts missing here and it is
+not polished. so it is basicly a rough first version.
+
+
+
+

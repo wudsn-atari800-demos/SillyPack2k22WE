@@ -1,0 +1,29 @@
+--- Relased at Silly Venture 2022 Winter Edition ---
+
+RRRRR   UU  U  NNN   N      @SV2022WE
+RR   R  UU  U  NN NN N
+RRRRR   UU  U  NN   NN    RUN by Foster
+RR  RR   UUU   NN    N      Z E L A X
+
+--- Required hardware configuration: Atari XL/XE STEREO POKEY ---
+
+Category: MSX Competition Atari XL/XE
+Track Title: RUN
+Album Title: Universum - 26' later
+Nick: Foster
+Group: ZELAX
+Time: 02:05
+Compose Date: 19.08.2022 
+Genre: Chiptune
+Created with: PC & Raster Music Tracker v1.34.00 with song pack, .xex player by VinsCool, recorded with Altirra A8 Emu. 
+
+Composer: Krzysztof Foster Bry³a
+Contact/Collab.: fofopix(at)gmail.com | IG: @foster_msx
+
+ZIP Content:
+Info.txt 
+RUN by Foster - SV2022WE - STEREO A8 XL XE.MP4
+RUN by Foster - SV2022WE - STEREO A8 XL XE.XEX
+
+Cheers and have a good time @SV2022WE!
+10QU, rdgs, Foster.

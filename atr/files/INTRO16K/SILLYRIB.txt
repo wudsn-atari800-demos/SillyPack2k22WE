@@ -1,0 +1,4 @@
+Title: Silly Ribbon
+Author: R0ger
+Category: Atari XL/XE intro 16kb
+Hardware: 64kb XL/XL mono

@@ -1,0 +1,9 @@
+Wild compo SV22we
+
+Title: Chilltro #1
+Authors: Tiger, Yosh, ZoltarX 
+Group: NG
+
+Format: Atari 8bit exectutable file: CHILTRO1.XEX - works on stock config
+
+

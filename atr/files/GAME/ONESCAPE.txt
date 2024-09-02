@@ -1,0 +1,17 @@
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE GAME COMPO
+Title:   onEscape
+Author:  Marek Pesout 
+         aka Poison (mxk,story,idea)
+         Frantisek Houra
+         aka Fandal (code)
+         Zdenek Eisenhammer
+         aka PG (gfx,translation)
+
+Info:    AtariMax 1 MB Cartridge
+         Stereo, 2nd POKEY supported
+         Released in 2022
+
+You have to run the cartridge
+"SillyPack2k22WE-onEscape.car"
+directly to play the game.

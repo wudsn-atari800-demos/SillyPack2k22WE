@@ -1,0 +1,180 @@
+                                                  /\
+                                 .            .  //o\
+                   .                   .      | /____\________.
+              __     _   ___     ___          : /_  _\        :           .
+   _______  _/ /____|_|_/  /____/  /_______   .   ||          |____       :
+   \\____.__/___   /   /  /    /  /    /  /_____  SV2k22WE!    ___//   ._\|/_.
+         |    |/  /   /  />   /  />   /  />    /  r e s . .   |          /|\
+         |       /___/\_______\_______\___    _\    . .u l t  |           :
+         |______/                        |____+    . s        |           .
+                   .     >>>>>>>>>>>>  .      |               :
+             .        _________   ______  ___ :   ___     ____._________
+    .     _ _______. /   /  __/__/      |/  /__  /  /____/ __     /  __/__
+    :     \\\ _\   |/   /  _>   /   |   /  ___/_/_ />   /  \|  __/  _>   /
+ ._\|/_.      \        /  /    /   _|_    /      /      \   |    \ /    / sK!
+   /|\         \______/\_______\___\|    ________\_______\__|\____\_____\___
+    :                               :___/ .                _ __ __________//
+    .     .                         .
+
+                         sILLY vENTURE Winter Edition 2k22
+                         ---------------------------------
+
+   : TITLE:                               AUTHOR:                        PTS:
+    01. Readme                           JAC! / WUDSN                   n/a
+    02. sv22we_invite                    PPs & Buddy                    n/a
+
+       *
+      / \
+     /___\o
+     /o__\
+     /_  _ ATARI XL/XE - Graphics Compo >>>>>
+   ._ | |
+   |
+   : TITLE:                               AUTHOR:                        PTS:
+    01. Silly Astro Venture              Tiger / NG                     7.573
+    02. Scarlet Waves                    Pazur / ZELAX                  7.231
+    03. E-THOT                           Tiger / NG                     7.056
+    04. silly giant                      Blasph/NG                      7.046
+    05. Missing Link in Human Evolution  Shaleth/SGA                    5.553
+    06. Woman in Moonlight               Buddy                          4.706
+
+       *
+      / \
+     /___\o
+     /o__\
+     /_  _ ATARI XL/XE - ATASCII Compo >>>>>
+   ._ | |
+   |
+   : TITLE:                               AUTHOR:                        PTS:
+    01. L'Origine du Monde               pépé / Hemoroids               5.781
+    02. Tell Me the Truth, Honey         +Adam+                         5.547
+    03. Dragon Hunt                      Logiker/VCC                    5.505
+    04. The Pongfather (1972)            pépé / Hemoroids               5.208
+    05. ATASCII Compo 3                  bocianu                        5.067
+
+       *
+      / \
+     /___\o
+     /o__\
+     /_  _ ATARI XL/XE - Pokey Music Compo >>>>>
+   ._ | |
+   |
+   : TITLE:                               AUTHOR:                        PTS:
+    01. Happy Fox                      PG                             7.116
+    02. Age of Falcon                  Poison                         6.430
+    03. (2) MANY                       ZoltarX/NG                     6.319
+    04. Nothing's Holding Me Back        Tobikomi                       6.304
+    05. Linear Motion                    Buddy                          5.723
+    06. Silky Adventure                  blackwine/dreamweb             5.522
+    07. RUN                              Foster - ZELAX                 4.957
+
+       *
+      / \
+     /___\o
+     /o__\
+     /_  _ ATARI XL/XE - 256B Game Compo >>>>>
+   ._ | |
+   |
+   : TITLE:                               AUTHOR:                        PTS:
+    01. Snail Run                        tr1x / Agenda                  7.737
+    02. Silly Lander                     SuN / Tight, tr1x / Agenda     6.908
+    03. Mutacja!                         Krzyś                          5.467
+
+       *
+      / \
+     /___\o
+     /o__\
+     /_  _ ATARI XL/XE - Game Compo >>>>>
+   ._ | |
+   |
+   : TITLE:                               AUTHOR:                        PTS:
+    01. onEscape                         Poison, Fandal, PG             7.500
+    02. Last Ninja II SV2022WE           Jakub Husak / Peter Scott      7.473
+    03. ProHiBan 4.4K+                   zbyti / bocianu                6.108
+
+       *
+      / \
+     /___\o
+     /o__\
+     /_  _ ATARI XL/XE - Intro 256B >>>>>
+   ._ | |
+   |
+   : TITLE:                               AUTHOR:                        PTS:
+    01. Village                          tr1x & Piesiu / Agenda         7.554
+    02. Lovetris                         tr1x / Agenda                  7.200
+    03. Ninja                            tr1x & Piesiu / Agenda         7.046
+    04. Meadow                           tr1x / Agenda                  6.955
+    05. Atari Cie Ma                     Krzys                          6.462
+    06. InfiniHeli256                    Jakub Husak                    6.079
+    07. simple plasm                     PPs                            5.333
+    08. Just SPRITES                     SuN/TighT                      5.129
+    09. space_r                          gorgh/Agenda                   5.032
+    10. Pebbles                          gorgh/Agenda                   4.984
+
+       *
+      / \
+     /___\o
+     /o__\
+     /_  _ ATARI XL/XE - Intro 16kB >>>>>
+   ._ | |
+   |
+   : TITLE:                               AUTHOR:                        PTS:
+    01. ATASCII Compo 2023 Invitation    bocianu, ZoltarX               7.841
+    02. Silly Ribbon                     R0ger                          7.716
+    03. 2 Ninja or not 2 Ninja           emkay                          4.750
+    04. Floating on and on               emkay                          4.507
+
+       *
+      / \
+     /___\o
+     /o__\
+     /_  _ ATARI XL/XE - Demo Standard (6502/GTIA) >>>>>
+   ._ | |
+   |
+   : TITLE:                               AUTHOR:                        PTS:
+    01. Unified                          Zelax, NG                      8.414
+    02. State of the Slayer              X-Men                          7.069
+    03. Arsantica 0 - the rough cut      Heaven / BeWu / Alien /        5.877
+                                          Bokanoid / Lowlife
+    04. Voxel 2k16                       Desire                         5.768
+    05. T100                             Buddy & PPs                    4.684
+    06. Wesolych Swiąt 2022              Alex_D, Kaz, Mono, ZoltarX     4.456
+    07. Reguskor                         Poison                         4.321
+    08. nyd23_invite                     Buddy & PPs                    3.965
+
+       *
+      / \
+     /___\o
+     /o__\
+     /_  _ ATARI XL/XE - Demo VBXE >>>>>
+   ._ | |
+   |
+   : TITLE:                               AUTHOR:                        PTS:
+    01. Burn the Blitter                 Desire                         6.453
+
+       *
+      / \
+     /___\o
+     /o__\
+     /_  _ Wild Compo >>>>>
+   ._ | |
+   |
+   : TITLE:                               AUTHOR:                        PTS:
+    01. Chilltro #1                      NG: Tiger, Yosh, ZoltarX       6.343
+     02. Happy Birthday Atari / TO7/70    p0ke                           6.325
+     03. Photons road                     LIV/Brainiax/Retrowibracje.pl  6.200
+     04. *At night they come*             BOHEMIAN GROVE                 5.775
+     05. Train in spacetime tunel         LIV/Brainiax/Retrowibracje.pl  5.516
+     06. Time machine                     LIV/Brainiax/Retrowibracje.pl  5.367
+     07. Atari Roots                      David Sives-Rutherford         5.226
+         Laser Engraved Mouse Pad
+    08. YMO - Rydeen                     Thomas Cherryhomes (TSCHAK)    5.100
+    09. 1972, Birth of Love              pépé / Hemoroids               4.947
+     10. Kryptonite Topped Atari Symbol   David Sives-Rutherford (sives) 4.806
+         in Resin Print
+    11. Green White Power Ranger         Innuendo / DLT                 4.771
+     12. Still Alive (VCS-Version)        Buddy (orig.Jonathan Coulton)  4.757
+
+   ____                                      /\                            ___
+  \\___\\ sILLY vENTURE 2k22 wINTER eDITION  /\ aSCII bY: sIMONkING/LAZ //___//
+                                             ||

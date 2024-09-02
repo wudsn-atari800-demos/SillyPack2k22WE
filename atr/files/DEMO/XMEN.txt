@@ -1,0 +1,50 @@
+
+               _______
+    __   _____|       |________  /\______ _________________/\__________   __
+    \/   \    |       |        \/        |       ___      /      ___  /   \/
+     __  _\_  |                                  |/      /       |/  /_  __
+   __\/ /     _                    /             _______/        |     \ \/__
+ __\/  /      |       .           /      .       |       .       |      \  \/__
+ \/  _/ x-men |       .       \  /       .       |       .       |  sns  \_  \/
+     \________|       :\______|\/|       :\______________:       |________/
+              |_______|          |_______|               |_______|
+
+
+            X-Men are back in town with a demo on ATARI 130XE called
+                              STATE OF THE SLAYER
+
+   Presented at the Sillyventure Winter Edition 2022 held in Gdansk, POLAND.
+
+
+   Credits :    Code ....................................... Hellflip
+                Music ...................................... Sgt Slayer
+                Graphic .................................... Yogi Beer
+
+
+
+                                Greetings go to
+
+                                   Sector One
+                                     Cocoon
+                                   Popsy Team
+                                   Eko System
+                                     Skarla
+                                    Taquart
+                                    Cookies
+                                      HMD
+                                    MJJ Prod
+                                   Razor 1911
+                                      TRSI
+                                    Calodox
+                                    No Extra
+                                     Flush
+
+
+                         Respect to our leader Major X
+                    The X of the X-Men is the X of the Major
+
+
+                This demo run on a base 130XE without extension.
+  To run it on Ultimate 1MB, use 576K CompyShop, to have separate ANTIC access
+                             which this demo uses.
+
