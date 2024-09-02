@@ -1,29 +1,19 @@
---- Relased at Silly Venture 2022 Winter Edition ---
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE POKEY MSX COMPO
+Title:   RUN
+Author:  Krzysztof Bryla
+         aka Foster/Zelax
+Runtime: 2:05
+Player:  Raster Music Tracker 1.34
+Info:    Stereo, 2nd POKEY required
+Album:   Universum - 26' later
+Created: 19.08.2022 
+E-Mail:  fofopix(at)gmail.com 
+Insta:   @foster_msx
 
-RRRRR   UU  U  NNN   N      @SV2022WE
+RRRRR   UU  U  NNN   N    @SV2022WE
 RR   R  UU  U  NN NN N
-RRRRR   UU  U  NN   NN    RUN by Foster
-RR  RR   UUU   NN    N      Z E L A X
-
---- Required hardware configuration: Atari XL/XE STEREO POKEY ---
-
-Category: MSX Competition Atari XL/XE
-Track Title: RUN
-Album Title: Universum - 26' later
-Nick: Foster
-Group: ZELAX
-Time: 02:05
-Compose Date: 19.08.2022 
-Genre: Chiptune
-Created with: PC & Raster Music Tracker v1.34.00 with song pack, .xex player by VinsCool, recorded with Altirra A8 Emu. 
-
-Composer: Krzysztof Foster Bry³a
-Contact/Collab.: fofopix(at)gmail.com | IG: @foster_msx
-
-ZIP Content:
-Info.txt 
-RUN by Foster - SV2022WE - STEREO A8 XL XE.MP4
-RUN by Foster - SV2022WE - STEREO A8 XL XE.XEX
+RRRRR   UU  U  NN   NN  RUN by Foster
+RR  RR   UUU   NN    N    Z E L A X
 
 Cheers and have a good time @SV2022WE!
-10QU, rdgs, Foster.

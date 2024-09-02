@@ -1,9 +1,12 @@
-------------------
---- for SV22we ---
-------------------
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE POKEY MSX COMPO
+Title:   Linear Motion
+Author:  Christian Duesterhoeft
+         aka Buddy
+Runtime: ?:??
+Player:  Raster Music Tracker 1.34
+         Origial RMT file included
 
-Titel: Linear Motion
-
-Autor: Buddy
-
-Kategorie: Atari XL/XE Music Compo
+Info:    Mono
+Info:    Mono, 2nd POKEY supported
+Info:    Stereo, 2nd POKEY required

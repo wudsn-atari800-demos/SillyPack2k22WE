@@ -46,10 +46,10 @@
    ._ | |
    |
    : TITLE:                               AUTHOR:                        PTS:
-    01. L'Origine du Monde               pépé / Hemoroids               5.781
+    01. L'Origine du Monde               pepe / Hemoroids               5.781
     02. Tell Me the Truth, Honey         +Adam+                         5.547
     03. Dragon Hunt                      Logiker/VCC                    5.505
-    04. The Pongfather (1972)            pépé / Hemoroids               5.208
+    04. The Pongfather (1972)            pepe / Hemoroids               5.208
     05. ATASCII Compo 3                  bocianu                        5.067
 
        *
@@ -78,7 +78,7 @@
    : TITLE:                               AUTHOR:                        PTS:
     01. Snail Run                        tr1x / Agenda                  7.737
     02. Silly Lander                     SuN / Tight, tr1x / Agenda     6.908
-    03. Mutacja!                         Krzyś                          5.467
+    03. Mutacja!                         Krzys                          5.467
 
        *
       / \
@@ -138,7 +138,7 @@
                                           Bokanoid / Lowlife
     04. Voxel 2k16                       Desire                         5.768
     05. T100                             Buddy & PPs                    4.684
-    06. Wesolych Swiąt 2022              Alex_D, Kaz, Mono, ZoltarX     4.456
+    06. Wesolych Swiąt 2022              Alex_D, Kaz, Mono, ZoltarX    4.456
     07. Reguskor                         Poison                         4.321
     08. nyd23_invite                     Buddy & PPs                    3.965
 
@@ -169,7 +169,7 @@
      07. Atari Roots                      David Sives-Rutherford         5.226
          Laser Engraved Mouse Pad
     08. YMO - Rydeen                     Thomas Cherryhomes (TSCHAK)    5.100
-    09. 1972, Birth of Love              pépé / Hemoroids               4.947
+    09. 1972, Birth of Love              pépé / Hemoroids             4.947
      10. Kryptonite Topped Atari Symbol   David Sives-Rutherford (sives) 4.806
          in Resin Print
     11. Green White Power Ranger         Innuendo / DLT                 4.771
