@@ -1,38 +1,29 @@
-   title: Snail Run
- version: 1.0
-released: 2022-12-10
-    code: Sebastian Pawlak aka tr1x
-     gfx: Piesiu
-   group: Agenda
-   party: Silly Venture 2022 WE
-category: Atari XL/XE Game 256B
-hardware: original Atari XL/XE 64KB PAL
-features: * joystick control (any direction)
-          * game over (press stick trigger to restart the game)
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE 256B GAME COMPO
+Title:   Snail Run
+Author:  Sebastian Pawlak (code)
+         aka tr1x / Agenda
+         Piotr Radecki (gfx)
+         aka Piesiu / Agenda
+Info:    Requires PAL
+         Requires Atari XL OS Rev. 2
+         Mono
+         Now runs from DOS 2.5
 
-Successfully tested with Altirra/x64 3.90: XE PAL / 64K.
+Version: 1.0
+Release: 2022-12-10
 
-Successfully tested with original Atari 65XE ECI + AVGCART.
 
-Successfully tested with original Atari 65XE ECI + Lotharek's Sio2sd Ver. 1.3.
-Turn the computer on while you are holding down the OPTION key.
 
-Successfully tested with Atari XL/XE OS rev. 2 (1983-05-10).
-Not guaranteed to work with other OS versions.
+Use joysticks in port 1 & 2.
+Move in any direction to move.
+Use trigger to restart game.
 
-Run it with clean memory.
-
-May not work with some DOSes or file managers.
-Please, run this game directly, without using DOS.
-
-/=.----------------------------------------=\
-|                                           |
-!             .: "Snail Run" :.             !
-:           Atari XL/XE Game 256B           :
-.           Silly Venture 2022 WE           .
-.     / original Atari XL/XE 64KB PAL /     .
-.                                           .
-:           code by tr1x / Agenda           :
-|           gfx by Piesiu / Agenda          |
-\=--(v1.0)-------------------[2022-12-10]-.=/
-
+Successfully tested with
+- Altirra/x64 3.90: XE PAL / 64K
+- Atari 65XE ECI + AVGCART
+- Atari 65XE ECI + Lotharek's
+                   Sio2sd Ver. 1.3
+ 
+Turn the computer on while you
+are holding down the OPTION key.

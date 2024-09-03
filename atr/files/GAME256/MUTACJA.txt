@@ -1,6 +1,15 @@
-Autor: Krzysztof Rogowski (Krzyś)
-Kategoria: Game 256B
-Tytuł: Mutacja!
-Napisane w: Quick Assembler/Bug Hunter
-Sprzęt: Atari 800XL, pióro CX-75, Neptun 156
-Plik wykonywalny: mutacja.xex
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE 256B GAME COMPO
+Title:   Mutacja!
+Author:  Krzysztof Rogowski
+         aka 
+         Krzys
+
+Info:    Requires lightpen
+         Mono
+         Now runs from DOS 2.5
+
+Tools:   Quick Assembler/Bug Hunter
+         on Atari 800 XL with
+         - CX-75 lightpen 
+         - Neptun 156 monitor

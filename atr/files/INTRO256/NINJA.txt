@@ -1,27 +1,23 @@
 Party:   Silly Venture 2k22 WE
-Compo:   ATARI XL/XE 256B INTRO COMPO
-Title:   ???
-Author:  ???
-
-         ??? (code)
-         ??? (gfx)
-         ??? (fnt)
-         ??? (msx)
-
-Info:
-         PAL and NTSC supported
-         Requires BASIC
+Compo:   ATARI XL/XE 256B GAME COMPO
+Title:   Ninja
+Author:  Sebastian Pawlak (code)
+         aka tr1x / Agenda
+         Piotr Radecki (qa)
+         aka Piesiu / Agenda
+Info:    Requires PAL
          Requires Atari XL OS Rev. 2
-         Requires 128K RAM
-         Requires 256K RAM
-         Requires 320K RAM
-         No sound
          Mono
-         Mono, 2nd POKEY supported
-         Stereo, 2nd POKEY required
-         Requires VBXE video board
-         SillyPack compatible version
          Now runs from DOS 2.5
-         Now RESET causes cold start
-         Now runs reliably on real
-         hardware and from DOS 2.5
+
+Version: 1.0
+Release: 2022-12-10
+
+Successfully tested with
+- Altirra/x64 3.90: XE PAL / 64K
+- Atari 65XE ECI + AVGCART
+- Atari 65XE ECI + Lotharek's
+                   Sio2sd Ver. 1.3
+ 
+Turn the computer on while you
+are holding down the OPTION key.
