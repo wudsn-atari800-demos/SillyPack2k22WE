@@ -10,6 +10,12 @@ call :fix       ATASCII     PONGFATH
 call :fix       GAME        ONESCAPE
 call :fix       GAME        LASTNIN2
 call :fix       GAME        PROHIBAN
+call :fix       GAME256     MUTACJA
+call :fix       GAME256     SILLYLAN
+call :fix       GAME256     SNAILRUN
+call :fix       INTRO256    LOVETRIS
+call :fix       INTRO256    NINJA
+call :fix       INTRO256    VILLAGE
 call :fix       MSX         HAPPYFOX
 goto :eof
 
