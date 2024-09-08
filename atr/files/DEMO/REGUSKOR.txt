@@ -1,15 +1,35 @@
-Competition - Atari 8bit demo (?) MONO POKEY
-Name - Reguskor
-Authors - Poison (music, idea, scroll texts), Zdenda Zubr (code)
-Format - xex
-Year 2022
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE DEMO COMPO
+Title:   Reguskor
+Author:  Marek Pesout 
+         aka Poison (code,idea,text)
+         Zdenda Zubr
+         aka Zdenda (code)
 
-This is part of my mono music discs pentalogy. Music used here is from 1993 - 1999. With the exception of the Dorgaster collection, which contains music from 2006 - 2022 (the newest mono CMC). All music is composed in CMC editor on a real Atari. I wanted to close my mono CMC work with these collections. It's not really a competition stuff, but more for fun :) The complete set will be published on AA after SV2022 WE.
+Info:    Mono
+
+Tools:   Chaos Music Composer (CMC)
+
+
+This is part of my mono music discs
+pentalogy. Music used here is from
+1993 - 1999. With the exception of
+the Dorgaster collection, which
+contains music from 2006 - 2022
+(the newest mono CMC).
+
+
+
+All music was composed in CMC editor
+on a real Atari. I wanted to close my
+mono CMC work with these collections.
+It's not really competition stuff,
+but more for fun :) The complete set
+will be published on Atariage after
+SV2022 WE.
 
 Dorgaster
 Malastor
 Reguskor
 Yudrasder
 Gyresdar
-
-
