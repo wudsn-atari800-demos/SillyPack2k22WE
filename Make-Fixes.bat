@@ -13,10 +13,17 @@ call :fix       GAME        PROHIBAN
 call :fix       GAME256     MUTACJA
 call :fix       GAME256     SILLYLAN
 call :fix       GAME256     SNAILRUN
+call :fix       INTRO256    INFHELI
 call :fix       INTRO256    LOVETRIS
+call :fix       INTRO256    MEADOW
 call :fix       INTRO256    NINJA
+call :fix       INTRO256    PEBBLES
+call :fix       INTRO256    SPACER
 call :fix       INTRO256    VILLAGE
+call :fix       INTRO16K    NINJA
+call :fix       INTRO16K    FLOATING
 call :fix       MSX         HAPPYFOX
+call :fix       WILD        RYDEEN
 goto :eof
 
 rem =========

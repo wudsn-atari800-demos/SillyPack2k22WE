@@ -1,3 +1,8 @@
-Innuendo / DLT
+Party:   Silly Venture 2k22 WE
+Compo:   WILD COMPO
+Type:    Atari 8-bit VBXE GFX
+Title:   Grem White Power Ranger
+Author:  Monika Wesolowska 
+         aks Innuendo / DLT
 
-Graphics requires the use of VBXE
+Info:    Requires VBXE video board

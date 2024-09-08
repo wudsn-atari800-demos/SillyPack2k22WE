@@ -1,9 +1,14 @@
-Wild compo SV22we
+Party:   Silly Venture 2k22 WE
+Compo:   WILD COMPO
+Type:    Atari 8-Bit Intro
+Title:   Chilltro #1
+Author:  New Generation
 
-Title: Chilltro #1
-Authors: Tiger, Yosh, ZoltarX 
-Group: NG
+         Pawel Rozanski
+         aka Yosh (code)
+         Robert Smolinski
+         aka Tiger (gfx)
+         Filip Golewski 
+         aka ZoltarX (msx)
 
-Format: Atari 8bit exectutable file: CHILTRO1.XEX - works on stock config
-
-
+Info:    Stereo, 2nd POKEY required

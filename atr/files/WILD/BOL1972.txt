@@ -1,81 +1,35 @@
 Party:   Silly Venture 2k22 WE
 Compo:   WILD COMPO
-Type:    ???
-Title:   ???
-Author:  ???
+Type:    Atari 8-bit Graphics
+Title:   1972, Birth of Love
+Author:  Florent Coste
+         aka pepe / Hemoroids
 
-         ??? (code)
-         ??? (gfx)
-         ??? (fnt)
-         ??? (msx)
-
-Info:
-         PAL and NTSC supported
-         Requires 128K RAM
-         Requires 256K RAM
-         Requires 320K RAM
-         No sound
-         Mono
-         Mono, 2nd POKEY supported
-         Stereo, 2nd POKEY required
-         Requires VBXE video board
-         SillyPack compatible version
-         Now runs from DOS 2.5
-         Now RESET causes cold start
-         Now runs reliably on real
-         hardware and from DOS 2.5
-
-Tools:   Raster Music Tracker 1.28
-
-_____________________________________________________
-_____________________________________________________
-
-               1972, Birth of Love
-_____________________________________________________
-_____________________________________________________
-
-Author : pépé / Hemoroids
-Party  : Silly Venture 2022 Winter Edition
-Compo  : Wild Atari 8bit Gfx
-System : Atari 8bits
-Info   : Created with Graph2Font 
+Info:    No sound
+         Created with Graph2Font 
          https://g2f.atari8.info
 
-Pic Name  : 1972, Birth of Love
+Notes:   Were you there the day
+         of the birth of love ?
 
-Show notes: Were you there the day of the birth of love ?
+
+   Greetings to all Atarians and 
+all retro culture preservation teams
 
 
-    ___ _/_ ___ _/_ 
-  | . | -_| . | -_|                
-  |  _|___|  _|___|  
-  |_|     |_|          
+
+
+
+
+     Be righteous, STay Atari ! 
+_____________________________________
+
+   ___ _/_ ___ _/_ 
+  | . | -_| . | -_|
+  |  _|___|  _|___|
+  |_|     |_|
   
-  http://peek.poke.free.fr/st 
-  https://demozoo.org/sceners/123351/ 
-_____________________________________________________
-_____________________________________________________
+  http://peek.poke.free.fr/st
+  https://demozoo.org/sceners/123351
 
- ___________________________________________________
-|       /////////////////////////////////////////   |
-|     /////////////////////////////////////////     |
-|   /////////////////////////////////////////       |                                                 
-|   __________________   ________________________   |
-|  /_ ATARI 130 XE  _/  /    /    /    /    /   /   |
- ______________________/___ /___ /___ /___ /___/____|
-|    __ __ __ __ __ __ __ __ __ __ __ __ __ __      |
-|   |__|__|__|__|__|__|__|__|__|__|__|__|__|__|     |
-|   |___|__|__|__|__|__|__|__|__|__|__|__|____|     |
-|   |____|__|__|__|__|__|__|__|__|__|__|__|___|     |
-|   |_____|__|__|__|__|__|__|__|__|__|_____|__|     |
-|  __      |__________________________|             |
-|___________________________________________________|
- ___________________________________________________
-
-           Greetings to all Atarians and 
-        all retro culture preservation teams
-
-              Be righteous, STay Atari ! 
-_____________________________________________________
-_____________________________________________________
-
+_____________________________________
