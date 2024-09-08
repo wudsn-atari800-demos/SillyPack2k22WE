@@ -1,4 +1,7 @@
-Title: Silly Ribbon
-Author: R0ger
-Category: Atari XL/XE intro 16kb
-Hardware: 64kb XL/XL mono
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE 16KB INTRO COMPO
+Title:   Silly Ribbon
+Author:  Antonin Holik
+         aka R0ger
+
+Info:    Mono

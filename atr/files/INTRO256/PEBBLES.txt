@@ -1,3 +1,9 @@
-Praca na konkurs Atari XL/XE 256 Bajtów Intro
-tytuł: Pebbles
-autor: gorgh/Agenda 
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE 256B INTRO COMPO
+Title:   Pebbles
+Author:  Kamil Trzaska
+         gorgh / Agenda
+
+Info:    Requires Atari XL OS Rev. 2
+         Mono
+         Now runs from DOS 2.5

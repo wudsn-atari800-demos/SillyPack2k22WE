@@ -1,13 +1,9 @@
-Just SPRITES
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE 256B INTRO COMPO
+Title:   Just SPRITES
+Author:  Grzegorz Zyla
+         aka SuN / Tight
+Contact: grzegorzsun@gmail.com
 
-256b intro - Just SPRITES
-
-Run with VBXE or RetroTINK to get better colors!
-
-Platform: Atari XL/XE
-OS: Atari XL/XE OS ver.2 [1F9CD270]
-Basic: off
-Sound: POKEY
-
-Code: Grzegorz Zyla - SuN
-grzegorzsun@gmail.com
+Info:    Requires Atari XL OS Rev. 2
+         Mono

@@ -1,5 +1,5 @@
 Party:   Silly Venture 2k22 WE
-Compo:   ATARI XL/XE 256B GAME COMPO
+Compo:   ATARI XL/XE 256B INTRO COMPO
 Title:   Ninja
 Author:  Sebastian Pawlak (code)
          aka tr1x / Agenda

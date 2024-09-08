@@ -1,6 +1,10 @@
-TITLE:   InfiniHeli256
-AUTHOR:  Jakub Husak
-DATE:    19.11.2022
-PARTY:   SV2022 WE
-COMPO:   256 bytes intro
-PLATFORM:Stock Atari XL/XE (one direct SO call to set graphics mode)
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE 256B INTRO COMPO
+Title:   InfiniHeli256
+Author:  Jakub Husak
+
+Info:    Requires Atari XL OS Rev. 2
+         Mono
+         Now runs from DOS 2.5
+
+Date:    19.11.2022

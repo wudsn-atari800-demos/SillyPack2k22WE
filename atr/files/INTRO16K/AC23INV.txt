@@ -1,5 +1,9 @@
-SILLY VENTURE 2022 WE entry
-Category: Intro 16K 
-Name: ATASCII Compo 2023 Invitation
-Authors: code&gfx bocianu, msx ZoltarX
-Requirements: stock Atari XL/XE
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE 16KB INTRO COMPO
+Title:   ATASCII Compo 2023 Invitation
+Author:  Bocianu Boczansky
+         aka bocianu (code)
+         Filip Golewski 
+         aka ZoltarX (gfx)
+
+Info:    Mono

@@ -1,9 +1,18 @@
-Party: Silly Venture 2k22 Winter Edition
-Compo: Atari XL/XE - Intro 16kB
-Title: Floating on and on
-Author: emkay
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE 16KB INTRO COMPO
+Title:   Floating on and on
+Author:  Mario Krix
+         aka emkay
 
-Notes: The music routine uses duplicate POKEY registers, which may cause some
-  channels to be played on a second POKEY on stereo equipped equipment. 
-  The intended effect is to use one POKEY, so it's best to turn stereo off.
+Info:    Now RESET causes cold start
+
+The music routine uses duplicate
+POKEY registers, which may cause
+some channels to be played on 
+the second POKEY on stereo equipped
+machine.
+
+The intended effect is to use one
+POKEY, so it's best to turn stereo
+off.
   

@@ -1,6 +1,9 @@
-simple plasm by PPs
--------------------
-254 bytes of plasma with some sound
-created 07. December 2022 for Sillyventure 2022 winter edition
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE 256B INTRO COMPO
+Title:   Simple Plasm
+Author:  Ralf Patschke
+         aka PPs
 
-STAY ATARI!
+Info:    254 bytes of plasma
+         Created 2022-12-07
+         Mono
