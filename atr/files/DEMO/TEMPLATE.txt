@@ -15,6 +15,8 @@ Info:
          Requires 128K RAM
          Requires 256K RAM
          Requires 320K RAM
+         Requires 576K RAM
+         Requires 1MB RAM
          No sound
          Mono
          Mono, 2nd POKEY supported
