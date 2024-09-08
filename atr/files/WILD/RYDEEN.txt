@@ -1,5 +1,14 @@
-Party: Silly Venture 2k22 Winter Edition
-Compo: Wild Compo
-Title: Yellow Magic Orchestra - Rydeen (cover) 
-Author: Thomas Cherryhomes (TSCHAK)
+Party:   Silly Venture 2k22 WE
+Compo:   WILD COMPO
+Type:    Atari 8-Bit Intro
+Title:   Yellow Magic Orchestra
+         Rydeen (Cover)
+Author:  Thomas Cherryhomes
+         aka Tschak
 
+Info:    Mono
+         Raster Music Tracker 1.31
+         Reexported with RMT 1.34
+         Now runs from DOS 2.5
+         Now RESET causes cold start
+         
