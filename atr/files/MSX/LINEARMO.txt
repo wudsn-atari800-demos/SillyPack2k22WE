@@ -3,10 +3,15 @@ Compo:   ATARI XL/XE POKEY MSX COMPO
 Title:   Linear Motion
 Author:  Christian Duesterhoeft
          aka Buddy
-Runtime: ?:??
-Player:  Raster Music Tracker 1.34
+Runtime: 2:20
+Player:  Raster Music Tracker 1.31
          Origial RMT file included
+         Reexported with RMT 1.34
+         Now runs from DOS 2.5
+         Now RESET causes cold start
 
 Info:    Mono
-Info:    Mono, 2nd POKEY supported
-Info:    Stereo, 2nd POKEY required
+
+  ____.----- Linear Motion -----.____
+      made by Buddy in nov 22 for
+   __.--  Silly Venture 22 WE  --.__
