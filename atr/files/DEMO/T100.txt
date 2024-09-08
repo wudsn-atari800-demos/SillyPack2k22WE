@@ -1,29 +1,36 @@
 Party:   Silly Venture 2k22 WE
 Compo:   ATARI XL/XE DEMO COMPO
-Title:   ???
-Author:  ???
+Title:   T100
+Author:  PPs & Buddy
 
-         ??? (code)
-         ??? (gfx)
-         ??? (fnt)
-         ??? (msx)
+         Ralf Patschke
+         aka PPs (code,)
+         Christian Duesterhoeft
+         aka Buddy (msx)
 
-Info:
-         Supports PAL and NTSC
-         Requires BASIC
-         Requires Atari XL OS Rev. 2
-         Requires 128K RAM
-         Requires 256K RAM
-         Requires 320K RAM
-         No sound
-         Mono
-         Mono, 2nd POKEY supported
+Info:    Supports PAL and NTSC
          Stereo, 2nd POKEY required
-         Requires VBXE video board
-         SillyPack compatible version
-         Now runs from DOS 2.5
          Now RESET causes cold start
-         Now runs reliably on real
-         hardware and from DOS 2.5
 
-Tools:   Raster Music Tracker 1.28
+Greetings to all the people
+who can attend SV2K22 WE!
+
+
+
+
+
+Details:
+- music done by Buddy
+- source image of first T100 provided
+  by Buddy, converted to A8 by PPs
+- NTSC & PAL friendly
+- automatic stereo POKEY replay
+- song replayed with LZSS routines
+  based on VinsCool's and DMSC's work
+  detection and playback by PPs
+- images converted with g2f by TeBe
+- xex crunched from 32893 bytes using
+  SuperPacker by TeBe
+- assembling all with MADS by TeBe
+  in WUDSN IDE by JAC
+- all the rest by PPs

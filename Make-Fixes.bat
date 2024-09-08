@@ -7,6 +7,9 @@ call :cpy       menu\README.txt atr\files\BONUS\README.txt
 call :fix       BONUS       README    $2000
 call :fix       ATASCII     LORIGINE
 call :fix       ATASCII     PONGFATH
+call :fix       DEMO        NYD23INV
+call :fix       DEMO        T100
+call :fix       DEMO        WS2022
 call :fix       GAME        ONESCAPE
 call :fix       GAME        LASTNIN2
 call :fix       GAME        PROHIBAN
@@ -23,6 +26,7 @@ call :fix       INTRO256    VILLAGE
 call :fix       INTRO16K    NINJA
 call :fix       INTRO16K    FLOATING
 call :fix       MSX         HAPPYFOX
+call :fix       MSX         LINEARMO
 call :fix       WILD        RYDEEN
 goto :eof
 

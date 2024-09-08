@@ -1,29 +1,19 @@
 Party:   Silly Venture 2k22 WE
 Compo:   ATARI XL/XE DEMO COMPO
-Title:   ???
-Author:  ???
+Title:   Wesolych Swiat
+Author:  Krzysztof A. Ziembik
+         aka Kaz (code)
+         Aleksander Drab
+         aka Alex_D (gfx)
+         Jerzy Kut
+         aka Mono (gfx)
+         Filip Golewski 
+         aka ZoltarX (msx)
 
-         ??? (code)
-         ??? (gfx)
-         ??? (fnt)
-         ??? (msx)
-
-Info:
-         Supports PAL and NTSC
-         Requires BASIC
-         Requires Atari XL OS Rev. 2
-         Requires 128K RAM
-         Requires 256K RAM
-         Requires 320K RAM
-         No sound
-         Mono
-         Mono, 2nd POKEY supported
-         Stereo, 2nd POKEY required
-         Requires VBXE video board
-         SillyPack compatible version
-         Now runs from DOS 2.5
+Info:    Mono, 2nd POKEY supported
          Now RESET causes cold start
-         Now runs reliably on real
-         hardware and from DOS 2.5
 
-Tools:   Raster Music Tracker 1.28
+Merry Christmas 2022 in the style of
+the 90's. Press 1-5 for different
+images, A-C for different songs and
+SPACE to start the slideshow.

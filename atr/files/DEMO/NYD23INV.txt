@@ -1,14 +1,35 @@
-nyd23_invite by Buddy & PPs
----------------------------
-Music demo for all A8 with at least 48kB of memory. Hope you enjoy listening
-and get motivated to produce something for next New Years Disc :)
-Greetings to all the people who can attend to sv22we!
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE DEMO COMPO
+Title:   NYD 23 Invite
+Author:  PPs & Buddy
 
+         Ralf Patschke
+         aka PPs (code)
+         Christian Duesterhoeft
+         aka Buddy (msx,gfx)
+
+Info:    Supports PAL and NTSC
+         Stereo, 2nd POKEY required
+         Now RESET causes cold start
+
+Music demo for all A8 with at 
+least 48kB of memory. I hope you
+enjoy listening and get motivated
+to produce something for next
+New Years Disc :)
+
+
+Greetings to all the people
+who can attend SV2K22 WE!
+
+Details:
 - music and logo done by Buddy
-- font and putting all together by PPs
-- NTSC & PAL friendly
+- font & putting all together by PPs
 - automatic stereo POKEY replay
-- songs replayed with LZSS routines based on VinsCool and DMSC work - stereo
+- songs replayed with LZSS routines
+  based on VinsCool's and DMSC's work
+  and supports stereo
   detection and playback by PPs
 - logo created with g2f by TeBe
-- xex crunched from 35925 bytes using SuperPacker by TeBe
+- xex crunched from 35925 bytes using
+  SuperPacker by TeBe
