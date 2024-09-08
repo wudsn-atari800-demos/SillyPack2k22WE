@@ -1,18 +1,35 @@
------------------------------
-          UNIFIED
-  a demo for atari xl/xe
-        by ZELAX, NG
-  for SILLY VENTURE 2022 WE
------------------------------
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE DEMO COMPO
+Title:   Unified
+Author:  Zelax, New Generation
 
-requirements: Atari XL/XE, stereo, 1MB (actually 640kb;)
+         Krzysztof Swiecicki
+         aka swiety (code)
+         Jaroslaw Padula
+         aka Solo (code)
 
-------------------------------------------------- CREDITS
-code: Święty, Solo
-msx:  Miker, Tatqoo, ZoltarX
-gfx:  Tiger, Blasph, Pazur, kris3d
+         Robert Smolinski
+         aka Tiger (gfx)
+         Marcin Kwoka 
+         aka Blasph (gfx)
+         Lukasz Pazera
+         aka Pazur (gfx)
+         Krzysztof Kuc
+         aka kris3d (gfx)
 
-additional credits/thanks:
+
+         Michael Szpilowski
+         aka Miker (msx)
+         Piotr Swierszcz
+         aka Tatqoo (msx)
+         Filip Golewski 
+         aka ZoltarX (msx)
+
+Info:    Requires 1MB RAM
+         Stereo, 2nd POKEY required
+
+Additional credits / thanks:
+============================
 
 Laoo/NG          - png2gr tool
 0xF              - inflate routine
@@ -20,76 +37,114 @@ JAC!             - WUDSN
 tebe             - MAD Assembler
 Raster, VinsCool - RMT
 rensoup, dmsc    - RMT2LZSS
-Ilmenit, Larek	 - RastaConverter, GUI
-TomboFry 	 - "Lost Companion" bass line
+Ilmenit, Larek   - RastaConverter,GUI
+TomboFry         - "Lost Companion"
+                   bass line
 
-------------------------------------------------- GREETINGS
 
-Overlanders, 5oft, Agenda, Lamers, Tristesse, Altair
-Mystic Bytes, Mad Team, Taquart, Bit Busters, Slight
-SSG, Sword, Joker, Blowjobb, Lepsi.de, MEC, Shpoon, MAC
-Suspect, Hard, GMG, Arise, Dream, Boom, Samar, Black Sun
-Nah Kolor, Dekadence, DUNE, SMFX, New Beat, AnticSHOP
-Atari Fan, ABBUC, ATARIBDSM, Gramy na Gazie, Desire
-DLT, Old Bulls, Fancy Rats, Icon, JNF, Cobra, Extream
-Aggression, Dentifrice, Retronics, Sector One, Trio, HMD
-FUTURIS, Lotharek, RETROnizacja, RetroMAX, Flush, Elysium 
-OftenHide, Yastuna Games
+Greetings:
+==========
 
-------------------------------------------------- DEMO DETAILS
+Overlanders, 5oft, Agenda, Lamers,
+Tristesse, Altair, Mystic Bytes,
+Mad Team, Taquart, Bit Busters,
+Slight, SSG, Sword, Joker, Blowjobb,
+Lepsi.de, MEC, Shpoon, MAC, Suspect,
+Hard, GMG, Arise, Dream, Boom, Samar,
+Black Sun, Nah Kolor, Dekadence, 
+DUNE, SMFX, New Beat, AnticSHOP,
+Atari Fan, ABBUC, ATARIBDSM, Gramy na
+Gazie, Desire, DLT, Old Bulls, Fancy
+Rats, Icon, JNF, Cobra, Extream,
+Aggression, Dentifrice, Retronics,
+Sector One, Trio, HMD, FUTURIS,
+Lotharek, RETROnizacja, RetroMAX,
+Flush, Elysium , OftenHide, Yastuna
+Games
 
-Święty: 
-real-time 3D engine with solids, env mapping, textures, 
-3d bump mapping, diffusion mapping, dynamic light, env light strength and more
+
+
+
+Demo Details:
+=============
+swiety: 
+real-time 3D engine with solids, env
+mapping, textures, 3d bump mapping,
+diffusion mapping, dynamic light,
+env light strength and more
 
 Solo:
-demo core, loaders, pre/post-processing, light shafts, transparent renderings
-layered backgrounds, dynamic backgrounds, 2D mappings, other routines
+demo core, loaders, pre/post-
+processing, light shafts, transparent
+renderings, layered backgrounds,
+dynamic backgrounds, 2D mappings,
+other routines
 
 # INTRO:
-concept: Solo | music: Miker
+concept: Solo
+music: Miker
 
 # UNDERWATER
-concept: Solo | music: ZolarX | 3D object: Święty
-details: 64 vertices, 128 faces, env mapping 
+concept: Solo
+music: ZolarX
+3D object: swiety
+64 vertices, 128 faces, env mapping 
 
 # GEARS
-concept: Solo | music: Miker | 3D object: Solo
-details: 55 vertices, 106 faces 
+concept: Solo
+music: Miker
+3D object: Solo
+55 vertices, 106 faces 
 
 # RINGS
-concept: Solo, Święty | music: Tatqoo| 3D object: kriss3d
+concept: Solo, swiety
+music: Tatqoo
+3D object: kriss3d
 
 # MOON
-concept: Solo | music: Tatqoo| 3D object: Solo
+concept: Solo
+music: Tatqoo
+3D object: Solo
 54 vertices, 128 faces env mapping 
 
 # BUMPED/TEXTURED CUBES
-concept: Święty | music: Tatqoo | 3D object: Świety
-Tripple mapping color cubes - moving ENV map, diffuse bump map & metallic map 
+concept: swiety
+music: Tatqoo
+3D object: swiety
+Tripple mapping color cubes 
+moving ENV map, diffuse bump map
+and metallic map 
 
 # DONUTS
-concept: Święty | music: Tatqoo | 3D object: Solo
-64 vertices, 128 faces, env color mapping 
+concept: swiety
+music: Tatqoo
+3D object: Solo
+64 vertices, 128 faces, env color
+mapping 
 
 # FISH
-concept: Święty | music: Tatqoo | 3D object: Święty
-112 vertices, 172 faces, texture size: 64x56 UV mapping    
+concept: swiety
+music: Tatqoo
+3D object: swiety
+112 vertices, 172 faces,
+texture size: 64x56 UV mapping
 
 # MULTI-CUBES (27 CUBES)
-Concept: Święty | music: Tatqoo | 3D object: Święty
-216 realtime calculated vertices , 324 faces (triangles),
-Mathematically calculated scaling, offset and animation each of the 27 boxes 
+Concept: swiety
+music: Tatqoo
+3D object: swiety
+216 realtime calculated vertices,
+324 faces (triangles),
+Mathematically calculated scaling,
+offset and animation each of the
+27 boxes
 
 # STATUE
-concept: Solo | music: Miker | 3D object: Solo
-111 vertices, 234 faces, multi env mapping   
+concept: Solo
+music: Miker
+3D object: Solo
+111 vertices, 234 faces,
+multi env mapping
 
 # FINAL SCREEN
 concept: Pazur
-
-
-
-
-
-
