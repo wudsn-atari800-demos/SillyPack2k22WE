@@ -66,7 +66,7 @@
     04. Nothing's Holding Me Back        Tobikomi                       6.304
     05. Linear Motion                    Buddy                          5.723
     06. Silky Adventure                  blackwine/dreamweb             5.522
-    07. RUN                              Foster - ZELAX                 4.957
+    07. RUN                            Foster - ZELAX                 4.957
 
        *
       / \
@@ -108,7 +108,7 @@
     06. InfiniHeli256                    Jakub Husak                    6.079
     07. simple plasm                     PPs                            5.333
     08. Just SPRITES                     SuN/TighT                      5.129
-    09. space_r                          gorgh/Agenda                   5.032
+    09. Space_r                          gorgh/Agenda                   5.032
     10. Pebbles                          gorgh/Agenda                   4.984
 
        *
@@ -160,7 +160,7 @@
    ._ | |
    |
    : TITLE:                               AUTHOR:                        PTS:
-    01. Chilltro #1                      NG: Tiger, Yosh, ZoltarX       6.343
+    01. Chilltro #1                    NG: Tiger, Yosh, ZoltarX       6.343
      02. Happy Birthday Atari / TO7/70    p0ke                           6.325
      03. Photons road                     LIV/Brainiax/Retrowibracje.pl  6.200
      04. *At night they come*             BOHEMIAN GROVE                 5.775
@@ -168,7 +168,7 @@
      06. Time machine                     LIV/Brainiax/Retrowibracje.pl  5.367
      07. Atari Roots                      David Sives-Rutherford         5.226
          Laser Engraved Mouse Pad
-    08. YMO - Rydeen                     Thomas Cherryhomes (TSCHAK)    5.100
+    08. Yellow Magic Orchestra - Rydeen  Thomas Cherryhomes (TSCHAK)    5.100
     09. 1972, Birth of Love              pepe / Hemoroids               4.947
      10. Kryptonite Topped Atari Symbol   David Sives-Rutherford (sives) 4.806
          in Resin Print
