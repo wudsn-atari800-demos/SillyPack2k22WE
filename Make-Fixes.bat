@@ -13,6 +13,7 @@ call :fix       DEMO        WS2022
 call :fix       GAME        ONESCAPE
 call :fix       GAME        LASTNIN2
 call :fix       GAME        PROHIBAN
+call :fix       DEMO\VBXE   BURNBLIT
 call :fix       GAME256     MUTACJA
 call :fix       GAME256     SILLYLAN
 call :fix       GAME256     SNAILRUN
@@ -27,6 +28,7 @@ call :fix       INTRO16K    NINJA
 call :fix       INTRO16K    FLOATING
 call :fix       MSX         HAPPYFOX
 call :fix       MSX         LINEARMO
+call :fix       MSX         RUN
 call :fix       WILD        RYDEEN
 goto :eof
 

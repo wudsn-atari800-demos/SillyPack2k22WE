@@ -1,6 +1,6 @@
 Party:   Silly Venture 2k22 WE
 Compo:   ATARI XL/XE POKEY MSX COMPO
-Title:   RUN
+Title:   Run
 Author:  Krzysztof Bryla
          aka Foster/Zelax
 Runtime: 2:05

@@ -1,10 +1,12 @@
-Burn the Blitter
---------------------
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE VBXE DEMO COMPO
+Title:   Burn the Blitter
+Author:  Karolj Nadj
+         aka Heaven (code)
+         Michael Szpilowski
+         aka Miker (msx)
 
-Platform: Atari XL/XE 64kb with VBXE, single POKEY
-Compo: Atari VBXE
-
-Code: Heaven
-Music: Miker
-
-
+Info:    Mono
+         Requires VBXE video board
+         Now runs from DOS 2.5
+         Now RESET causes cold start
