@@ -1,18 +1,27 @@
-Arsantica 0 - the rough cut
----------------------------
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE DEMO COMPO
+Title:   Arsantica 0 - the rough cut
+Author:  Desire
 
-Platform: Atari XL/XE 64kb 
-Compo: Atari Demo
+         Karolj Nadj
+         aka Heaven (code)
+         Vincent Bijwaard
+         aka Alien (gfx)
+         Robin Vincent
+         aka BokanoiD (gfx)
+         Angelo Bod
+         aka Lowlife (gfx)
+         Bartek Wasiel
+         aka BeWu (msx)
 
-Code: Heaven
-Music: BeWu
-Graphics: Alien,Bokanoid,Lowlife
-
-This is the early prototype of Arsantica 1 demo with
-some alternative music which was later replaced in
-the final version. Some parts missing here and it is
-not polished. so it is basicly a rough first version.
+Info:    Requires 128K RAM
+         Stereo, 2nd POKEY required
 
 
 
-
+This is the early prototype of the
+Arsantica 1 demo with some alterna-
+tive music which was later replaced
+in the final version. Some parts are
+missing here and it is not polished.
+So it is basicly a rough 1st version.

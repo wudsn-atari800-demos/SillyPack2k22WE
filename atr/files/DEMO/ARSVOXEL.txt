@@ -1,10 +1,14 @@
-Voxel Mountains 2k16
---------------------
+Party:   Silly Venture 2k22 WE
+Compo:   ATARI XL/XE DEMO COMPO
+Title:   Voxel 2k16
+Author:  Desire
 
-Platform: Atari XL/XE 64kb, single POKEY
-Compo: Atari XL Demo
+         Karolj Nadj
+         aka Heaven (code)
+         Vincent Bijwaard
+         aka Alien (gfx)
+         Michael Szpilowski
+         aka Miker (msx)
 
-Code: Heaven
-Music: Miker
-Panel gfx: Alien
+Info:    Mono, 2nd POKEY supported
 
