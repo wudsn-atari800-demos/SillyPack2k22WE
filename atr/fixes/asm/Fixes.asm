@@ -73,7 +73,7 @@ wait	cmp $14
 	.get :filename
 	.sav length
 
-	.echo "Fixed: Now runs from DOS 2.5segment. RUNADR segment added. New length is ",length+6," bytes"
+	.echo "Fixed: Now runs from DOS 2.5. RUNADR segment added. New length is ",length+6," bytes"
 	opt h-
 	.word $2e0
 	.word $2e1
