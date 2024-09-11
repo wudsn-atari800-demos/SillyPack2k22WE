@@ -6,6 +6,8 @@ Author:  Krzysztof Bryla
 Runtime: 2:05
 Player:  Raster Music Tracker 1.34
 Info:    Stereo, 2nd POKEY required
+         Now loads from DOS 2.5
+         Now RESET causes cold start
 Album:   Universum - 26' later
 Created: 19.08.2022 
 E-Mail:  fofopix(at)gmail.com 

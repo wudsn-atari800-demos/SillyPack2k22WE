@@ -10,5 +10,5 @@ Info:    Mono
          Raster Music Tracker 1.31
          Reexported with RMT 1.34
          Now runs from DOS 2.5
-         Now RESET causes a cold start
+         Now RESET causes cold start
 

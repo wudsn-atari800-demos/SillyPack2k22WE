@@ -11,7 +11,7 @@ Author:  Krzysztof A. Ziembik
          aka ZoltarX (msx)
 
 Info:    Mono, 2nd POKEY supported
-         Now RESET causes a cold start
+         Now RESET causes cold start
 
 Merry Christmas 2022 in the style of
 the 90's. Press 1-5 for different
