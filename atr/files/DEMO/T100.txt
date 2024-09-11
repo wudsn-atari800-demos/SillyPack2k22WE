@@ -10,7 +10,7 @@ Author:  PPs & Buddy
 
 Info:    Supports PAL and NTSC
          Stereo, 2nd POKEY required
-         Now RESET causes cold start
+         Now RESET causes a cold start
 
 Greetings to all the people
 who can attend SV2K22 WE!

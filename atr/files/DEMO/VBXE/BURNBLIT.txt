@@ -9,4 +9,4 @@ Author:  Karolj Nadj
 Info:    Mono
          Requires VBXE video board
          Now runs from DOS 2.5
-         Now RESET causes cold start
+         Now RESET causes a cold start

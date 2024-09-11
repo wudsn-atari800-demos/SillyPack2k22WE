@@ -4,7 +4,7 @@ Title:   2 Ninja or not 2 Ninja
 Author:  Mario Krix
          aka emkay
 
-Info:    Now RESET causes cold start
+Info:    Now RESET causes a cold start
 
 The music routine uses duplicate
 POKEY registers, which may cause
