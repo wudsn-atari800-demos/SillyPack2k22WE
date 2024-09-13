@@ -7,7 +7,7 @@
  !NE7        ___________     _______\/__
  
  
-          ? songs - ? graphics - ? intros - ? demos - ? games - ? wilds
+  1 bonus - 7 songs - 11 graphics - 14 intros - 9 demos - 6 games - 4 wilds
 
  This pack contains a disk image in MyDos format with all Atari 8-bit releases
  of Silly Venture 2k22 Winter Edition. I felt they deserved a good presentation,
@@ -30,9 +30,26 @@
 
  I have patched the following releases for your seamless pleasure:
 
- * ?                           - SillyPack compatible version
- * ?                           - Now runs from DOS 2.5
-
+ * Arsantica 0                 - Now runs from DOS 2.5 (TODO)
+ * Burn the Blitter            - Now runs from DOS 2.5 (TODO)
+ * Happy Fox                   - Now fades screen while loading
+ * Infheli                     - Now runs from DOS 2.5
+ * Linear Motion               - Now runs from DOS 2.5
+                               - Now RESET causes a cold start
+ * Lovetris                    - Now runs from DOS 2.5
+ * Meadow                      - Now runs from DOS 2.5
+ * Mutacja                     - Now runs from DOS 2.5
+ * Ninja                       - Now runs from DOS 2.5
+ * Pebbles                     - Now runs from DOS 2.5
+ * Run                         - Now runs from DOS 2.5
+                               - Now RESET causes a cold start
+ * Silly Lander                - Now runs from DOS 2.5
+ * Snail Run                   - Now runs from DOS 2.5
+ * Village                     - Now runs from DOS 2.5
+ * Voxel 2k16                  - Now runs from DOS 2.5 (TODO)
+ * Rydeen                      - Now runs from DOS 2.5
+                               - Now RESET causes a cold start
+ * NYD 23 Invite               - Now RESET causes a cold start
 
  Original ASCII artwork by sK!, music "Waves" by Alex, menu by JAC!
 
