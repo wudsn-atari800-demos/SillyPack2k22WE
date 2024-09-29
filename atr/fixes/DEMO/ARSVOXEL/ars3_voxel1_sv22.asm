@@ -1,6 +1,7 @@
 * Voxel Flight Vx
 * Silly Venture 2022 WE Editon
 
+relocate = 0
 ;	opt f+
 ;	opt h-
 ;bp -n main_loop "r @t2 @frame-@t0; r @t3 @clk-@t1; r @t0 @frame; r @t1 @clk"
@@ -127,13 +128,15 @@ persptab_load	= $4000
 ;		ins "persptab128.bin"
 ;		ins "persptabx3.bin" ;****
 ;		ins "persptabx4.bin" ;****
-		ins "persptabx40b.bin"	;$4000 bytes
+		ins "persptabx40b.bin"	;$1000 bytes
 
 		org $2000
 move_persptab_to_c000
       		lda:cmp:req 20      ;wait 1 frame
 		sei			;stop IRQ interrupts
-		mva #$00 $d40e		;stop NMI interrupts	
+		mva #$00 $d40e		;stop NMI interrupts
+		sta $d400
+		sta $22f
 		mva #$fe $d301		;switch off ROM to get 16k more ram
 .proc memclear
 		ldx #0
@@ -275,8 +278,15 @@ left_panel_gfx
 
 	ini move_persptab_to_c000
 
+main_length = $1500
+main_load = $4c00
+main_os   = $d800
 
-		org $c00
+	.if relocate=1
+	org $c00,main_load
+	.else
+	org $c00
+	.endif
 
 		.proc main
 start		jmp init
@@ -660,6 +670,9 @@ main_loop2
         sta fps
 
 		.local calc_voxel1
+		
+		.proc block1
+	
 		lda #xres-1
 		sta inner_loop
 		
@@ -669,8 +682,8 @@ main_loop2
 .if camyflag=1
 		lda camy
 .rept 40,#
-		sta calc_voxel0.camx0:1+1
-		sta calc_voxel0.cam0x:1+1
+		sta block1.camx0:1+1
+		sta block2.cam0x:1+1
 .endr
 .endif
 
@@ -709,11 +722,43 @@ camx0:1		adc #camy
 ;		.endl                 ;                                                           +37
 .endr
 
-	
+	.endp
+
 	.if * <> $20bd
-	.error "ERROR: Wrong PC."
+	.print "ERROR: Wrong PC."
 	.endif
 
+	m_info block1
+	.endp 	; End of main
+	m_info main
+
+	.if relocate=1
+	org $8000
+	.proc main_to_os
+	sei
+	mva #0 nmien
+	dec portb
+	ldy #>main_length
+	ldx #0
+loop
+src	lda main_load,x
+trg	sta main_os,x
+	inx
+	bne loop
+	inc src+2
+	inc trg+2
+	dey
+	bne loop
+	inc portb
+	mva #$40 nmien
+	cli
+	rts
+	.endp
+
+	ini main_to_os
+	.endif
+
+	org $20bd
 	.proc block2
 
 pos01		ldy miny
@@ -786,7 +831,7 @@ pos10		;ldy #0
 
 		dec inner_loop
 		bmi @+
-		jmp calc_voxel1.xloop
+		jmp main.block1.xloop
 @
 ;		rts
 		.endl
@@ -807,22 +852,20 @@ pos10		;ldy #0
 ;		sta uvoffset
 		
 		lda sintab,x
-		sta main_loop+1
+		sta main.main_loop+1
 .if camyflag=1
 		lda sintab2,x
 		sta camy
 .endif
 ;		cpx #$b3
 ;		bcs @+
-		jmp main_loop
+		jmp main.main_loop
 ;		jmp *
 @
 
 	.endp	; End of block2
-	m_info calc_voxel1
-	.endp 	; End of main
+	m_info block2
 
-	m_info main
 
 ;	.align $100
         icl 'mpt_player.asm'
@@ -1141,4 +1184,34 @@ dlist0
         .byte $41
         .word dlist0
 
-		run main.start
+
+	.if relocate=1
+	org $9710
+	.proc main_to_ram
+	sei
+	mva #0 nmien
+	dec portb
+	ldy #>main_length
+	ldx #0
+loop
+src	lda main_os,x
+trg	sta main,x
+	inx
+	bne loop
+	inc src+2
+	inc trg+2
+	dey
+	bne loop
+	inc portb
+	mva #$40 nmien
+	cli
+	jmp main.start
+	.endp
+	
+	run main_to_ram
+	
+	.else
+	
+	run main.start
+
+	.endif
