@@ -23,7 +23,7 @@
 
 ;unlimited 
 
-load_2000 = $1000
+load_2000 = $2900
 ; @com.wudsn.ide.lng.mainsourcefile=ARSANTIC.asm
 
 	icl "DSR-LOGO-2-by-akira.h"
@@ -150,6 +150,15 @@ tunneltexturex0 equ $a000 ;$-b040 --> bank #1 aber Konflikt mit main code $a000 
 tunneltexture0x equ $8000 ;-$9040 --> bank #1 will be moved into main ram at runtime
 draw_code_ad equ $1100
 
+	org $2000
+
+	.proc loader1
+	icl "..\..\asm\Fixes.asm"
+	m_disable_basic
+
+	org $12
+	.byte $00,$00,$00
+
 		org $bc40
 		.byte d'                                        '
 		.byte d'                                        '
@@ -175,72 +184,74 @@ draw_code_ad equ $1100
 		.byte d' WHICH BEWU REWORKED LATER IN THE FINAL '
 		.byte d'                                        '
 
-	org $0c00
-	
-clearclear	
+	.endp
 
-	lda #0
-	sta 65
-
-	.proc test
-	jsr fill_memory
+;	org $0c00
+;	
+;clearclear	
+;
+;	lda #0
+;	sta 65
+;
+;	.proc test
+;	jsr fill_memory
+;;	rts
+;
+;	.proc fill_memory
+;	.macro m_fill
+;	lda #:1
+;	ldx #:2
+;	ldy #[:3+1-:2]
+;	jsr fill
+;	.endm
+;	
+;	sei
+;	mva #0 $d40e
+;	m_fill $ff $0d $bb
+;	m_fill $fe $c0 $cf
+;	m_fill $fe $d8 $ff
+;;	m_fill $23 $40 $7f
+;;	m_fill $27 $40 $7f
+;;	m_fill $2b $40 $7f
+;;	m_fill $2f $40 $7f
+;;	m_fill $63 $40 $7f
+;;	m_fill $67 $40 $7f
+;;	m_fill $6b $40 $7f
+;;	m_fill $6f $40 $7f
+;;	m_fill $a3 $40 $7f
+;;	m_fill $a7 $40 $7f
+;;	m_fill $ab $40 $7f
+;;	m_fill $af $40 $7f
+;;	m_fill $e3 $40 $7f
+;;	m_fill $e7 $40 $7f
+;;	m_fill $eb $40 $7f
+;;	m_fill $ef $40 $7f
+;	mva #$ff $d301
+;	mva #$40 $d40e
+;	cli
 ;	rts
-
-	.proc fill_memory
-	.macro m_fill
-	lda #:1
-	ldx #:2
-	ldy #[:3+1-:2]
-	jsr fill
-	.endm
-	
-	sei
-	mva #0 $d40e
-	m_fill $ff $0d $bb
-	m_fill $fe $c0 $cf
-	m_fill $fe $d8 $ff
-;	m_fill $23 $40 $7f
-;	m_fill $27 $40 $7f
-;	m_fill $2b $40 $7f
-;	m_fill $2f $40 $7f
-;	m_fill $63 $40 $7f
-;	m_fill $67 $40 $7f
-;	m_fill $6b $40 $7f
-;	m_fill $6f $40 $7f
-;	m_fill $a3 $40 $7f
-;	m_fill $a7 $40 $7f
-;	m_fill $ab $40 $7f
-;	m_fill $af $40 $7f
-;	m_fill $e3 $40 $7f
-;	m_fill $e7 $40 $7f
-;	m_fill $eb $40 $7f
-;	m_fill $ef $40 $7f
-	mva #$ff $d301
-	mva #$40 $d40e
-	cli
-	rts
-	
-	.proc fill
-	sta $d301
-	stx p1+1
-	sty x1
-	ldy #0
-	sty p1
-mloop	lda #0
-	sta (p1),y
-	iny
-	bne mloop
-	inc p1+1
-	dec x1
-	bne mloop
-	rts
-	.endp
-
-	.endp
-	
-	.endp
-
-	ini clearclear
+;	
+;	.proc fill
+;	sta $d301
+;	stx p1+1
+;	sty x1
+;	ldy #0
+;	sty p1
+;mloop	lda #0
+;	sta (p1),y
+;	iny
+;	bne mloop
+;	inc p1+1
+;	dec x1
+;	bne mloop
+;	rts
+;	.endp
+;
+;	.endp
+;	
+;	.endp
+;
+;	ini clearclear
 
 ;move rmt player and mod file into bank #0
 		org load_2000 ;now switch to XE-bank #0
@@ -296,7 +307,7 @@ loadtext1	dta d'LOADING DATA..#2'
 ;		ins "tunneltexturex0.dat" ;original
 		;ins "tunneltex_x0.dat" ;robin
 ;		ins "tunnel8c_x0.dat" ;8col
-		ins "tunneltex2_x0.dat" ;robin
+		ins "tunneltex2_x0.dat" ;robin $100 bytes
 
 		org load_2000
 * convert x0 texture into 0x 
@@ -341,7 +352,7 @@ loadtext3	dta d'LOADING DATA..#1'
 		.endp
 		ini activate_bank2
 
-		org draw_code_ad ;$8000
+		org draw_code_ad ;$1100 => $8000??
 		ins "tunnelcodead.dat"	;$1800 bytes
 
 		org load_2000
@@ -453,6 +464,10 @@ dlist_panda	.byte $70
 		.word dlist_panda
 
 		.proc show_panda
+wait5secs	lda $12			;Text screen shall be visible for 5s
+		ora $13
+		beq wait5secs
+
 		lda:cmp:req $14		;wait 1 frame
 		lda #<dlist_panda
 		sta 560
@@ -503,7 +518,7 @@ dlist_panda	.byte $70
 loadtext4	dta d'LOADING DEMO... '
 		.endp
 		ini loading_demo
-		
+
 		org $0800
 ;fast Mode9++ display list code
 ;this method works just in combination with the DLI!!!
@@ -612,12 +627,27 @@ sintaby  dta sin(0,24,256)
 ;loader $0c00
 
 
-         org font
+		org title_screen
+		ins "dsr_blue.mic"	;$1010-2e0f
+
+         org font		; $3000-$3087
 ;		ins "dither.fnt"
 		.he 00 00 00 00 00 00 00 00
 :16  	.byte #*16+#,#*16+#,#*16+#,#*16+#,#*16+#,#*16+#,#*16+#,#*16+#            
-            
-            org $3800
+
+
+
+		org pmfont		 ;$3400-$37ff
+;		ins "agasoft.fnt"
+;		ins "chset.fnt"
+;		ins "hugo.fnt"
+;		ins "polfont.fnt"
+;		ins "hohl.fnt"
+		;ins "robbo1.fnt"
+		ins "erwin_8x8font3.fnt"
+
+            org $3800		; $3800-$3906
+
 dlist	.byte $70,$70,$60,$80,$42
 dlvramad .word vram
 :21		.byte $02
@@ -641,6 +671,34 @@ dlist_mode10
 :89	.byte $0f
 	.byte $41
 	.word dlist_mode10
+
+		org screen1		;$4010-4b4f
+		ins "m10_back.raw"
+
+
+		org pmsintab		;$6800-$68ff
+		ins "pmsintab.dat"
+
+		org pmcolors		;$6c00-$6cff
+:16		.byte #+$60
+:16		.byte (15-#+$60)
+:16		.byte #+$70
+:16		.byte (15-#+$70)
+:16		.byte #+$70
+:16		.byte (15-#+$70)
+:16		.byte #+$60
+:16		.byte (15-#+$60)
+:16		.byte #+$80
+:16		.byte (15-#+$80)
+:16		.byte #+$60
+:16		.byte (15-#+$60)
+:16		.byte #+$70
+:16		.byte (15-#+$70)
+:16		.byte #+$60
+:16		.byte (15-#+$60)
+
+		org font_part2
+		ins "DSR-LOGO-2-by-akira.fnt"	;$7000-73ff
 
 
 ;	.ALIGN $0400
@@ -2557,48 +2615,8 @@ movescript:
 ;		.he 11 00 00 11 00 00 00 11
 
 
-	
-		org pmfont
-;		ins "agasoft.fnt"
-;		ins "chset.fnt"
-;		ins "hugo.fnt"
-;		ins "polfont.fnt"
-;		ins "hohl.fnt"
-		;ins "robbo1.fnt"
-		ins "erwin_8x8font3.fnt"
-
-		org pmsintab
-		ins "pmsintab.dat"
-
-		org pmcolors
-:16		.byte #+$60
-:16		.byte (15-#+$60)
-:16		.byte #+$70
-:16		.byte (15-#+$70)
-:16		.byte #+$70
-:16		.byte (15-#+$70)
-:16		.byte #+$60
-:16		.byte (15-#+$60)
-:16		.byte #+$80
-:16		.byte (15-#+$80)
-:16		.byte #+$60
-:16		.byte (15-#+$60)
-:16		.byte #+$70
-:16		.byte (15-#+$70)
-:16		.byte #+$60
-:16		.byte (15-#+$60)
-
-		org font_part2
-		ins "DSR-LOGO-2-by-akira.fnt"
-
-		org title_screen
-		ins "dsr_blue.mic"
-
-		org screen1
-		ins "m10_back.raw"
-
 		org scr
-		ins "DSR-LOGO-2-by-akira.scr"
+		ins "DSR-LOGO-2-by-akira.scr"	;$b800-$bcaf
 
 		run main
 		
