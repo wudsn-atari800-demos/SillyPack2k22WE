@@ -7,6 +7,8 @@ call :cpy       menu\README.txt atr\files\BONUS\README.txt
 call :fix       BONUS       README    $2000
 call :fix       ATASCII     LORIGINE
 call :fix       ATASCII     PONGFATH
+call :fix       DEMO        ARSANTIC
+call :fix       DEMO        ARSVOXEL
 call :fix       DEMO        NYD23INV
 call :fix       DEMO        T100
 call :fix       DEMO        WS2022

@@ -12,3 +12,4 @@ Author:  Desire
 
 Info:    Mono, 2nd POKEY supported
          Now runs from DOS 2.5
+         Now RESET causes cold start

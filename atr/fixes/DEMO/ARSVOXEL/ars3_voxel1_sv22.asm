@@ -1,7 +1,7 @@
 * Voxel Flight Vx
 * Silly Venture 2022 WE Editon
 
-relocate = 0
+relocate = 1
 ;	opt f+
 ;	opt h-
 ;bp -n main_loop "r @t2 @frame-@t0; r @t3 @clk-@t1; r @t0 @frame; r @t1 @clk"
@@ -151,9 +151,6 @@ mem		sta $d800,x
 		bne memclear
 .endp
 
-
-
-
 		ldy #$10
 loop 		ldx #0
 loop1		lda persptab_load,x
@@ -278,9 +275,9 @@ left_panel_gfx
 
 	ini move_persptab_to_c000
 
-main_length = $1500
+main_length = $14bd
 main_load = $4c00
-main_os   = $d800
+main_os   = $e000
 
 	.if relocate=1
 	org $c00,main_load
@@ -738,7 +735,7 @@ camx0:1		adc #camy
 	sei
 	mva #0 nmien
 	dec portb
-	ldy #>main_length
+	ldy #>[main_length+$ff]
 	ldx #0
 loop
 src	lda main_load,x
@@ -1202,9 +1199,32 @@ trg	sta main,x
 	inc trg+2
 	dey
 	bne loop
+	
+loop2	lda main_os+[>main_length*$100],x
+	sta main+[>main_length*$100],x
+	inx
+	cpx #<main_length
+	bne loop2
+
+.proc memclear
+		ldx #0
+		txa
+mem		sta $e000,x
+		inx
+		bne mem
+		inc mem+2
+		lda mem+2
+		cmp #$ff
+		bne memclear
+.endp
+
 	inc portb
 	mva #$40 nmien
 	cli
+	lda #3
+	sta $d20f
+	sta $d21f
+	mva #$ff 580
 	jmp main.start
 	.endp
 	
