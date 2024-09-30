@@ -26,7 +26,7 @@
 load_2000 = $2900
 ; @com.wudsn.ide.lng.mainsourcefile=ARSANTIC.asm
 
-	icl "DSR-LOGO-2-by-akira.h"
+;	icl "DSR-LOGO-2-by-akira.h"
 
 xboot_load_file equ $5f1
 
@@ -35,7 +35,7 @@ rega	equ $00
 regx	equ $01
 regy	equ $02
 counter equ $03 ;$04
-stick0	equ $05
+;stick0	equ $05
 linecounter equ $06
 cloc	equ $07
 si equ $08
@@ -88,7 +88,7 @@ vramoffset equ $84
 scr		equ $b800 ;akira logo screen data
 font	equ $3000
 pmfont equ $3400
-pmsintab equ $6800
+pmsintab equ $6800	; $100 bytes
 pmcolors equ $6c00
 
 chartabl equ $c000
@@ -101,15 +101,15 @@ p0 equ $c400
 font_part2 equ $7000
 
 ;desire mode10 logo
-title_screen equ $1010
-coltab equ $8000
+title_screen equ $8010	; $1e00 bytes
+coltab equ $800	;$8000, $200 bytes
 
 rmt_player equ $7000 ;xe-bank #0, xl $8400
 ;module equ $4000
 module	equ $4000 ;xe-bank #0
 
 ;unlimited bob part
-screen1 equ $4010
+screen1 equ $4010	; $b40 bytes
 screen_tunnel equ $3010
 
 ;draw_code equ $6800 ;$9e02 ;-$7602
@@ -118,7 +118,6 @@ screen_tunnel equ $3010
 ;draw_code_ad equ $8000;-$1800
 
 
-strig0	equ $d010
 
 ;part 2
 WIDTH	= 40
@@ -148,16 +147,18 @@ x1	= $e0
 draw_code equ $4000 ;-$7602 --> bank #2
 tunneltexturex0 equ $a000 ;$-b040 --> bank #1 aber Konflikt mit main code $a000 im XL RAM
 tunneltexture0x equ $8000 ;-$9040 --> bank #1 will be moved into main ram at runtime
-draw_code_ad equ $1100
+;draw_code_ad equ $1100
 
 	org $2000
 
 	.proc loader1
-	icl "..\..\asm\Fixes.asm"
 	m_disable_basic
 
 	org $12
 	.byte $00,$00,$00
+	
+	org 580
+	.byte 1
 
 		org $bc40
 		.byte d'                                        '
@@ -352,12 +353,11 @@ loadtext3	dta d'LOADING DATA..#1'
 		.endp
 		ini activate_bank2
 
-		org draw_code_ad ;$1100 => $8000??
-		ins "tunnelcodead.dat"	;$1800 bytes
+;		org draw_code_ad ;$1100 => $8000??
 
-		org load_2000
+		org $2000
 ;code generator
-code_generator
+	.proc code_generator
 		lda #<draw_code_ad
 		sta si
 		lda #>draw_code_ad
@@ -435,7 +435,14 @@ put_code	sta draw_code
 		bne putcode0
 		inc put_code+2
 putcode0 	rts
-		ini load_2000
+
+	.local draw_code_ad
+	ins "tunnelcodead.dat"	;$1800 bytes
+	.endl
+
+	.endp
+	m_info code_generator
+	ini code_generator
 
 		org load_2000
 		.proc activate_bank3
@@ -519,13 +526,20 @@ loadtext4	dta d'LOADING DEMO... '
 		.endp
 		ini loading_demo
 
-		org $0800
+		org title_screen	;$1010-2e0f
+		ins "dsr_blue.mic"
+
+
+;		org $0800
 ;fast Mode9++ display list code
 ;this method works just in combination with the DLI!!!
 ;it uses the internal antic line ram to speed up the mode9 generation
 ; 2 blank lines, 1 line of mode
 		
-dlist_part3  	dta $90,$6f
+
+	org $600
+	.local dlist_part3
+ 	dta $90,$6f
 ad    	dta a(screen1)
 
 ; 29 times $8f,$2f => 58 lines
@@ -540,7 +554,15 @@ ad    	dta a(screen1)
     dta $8f,$2f
     dta $41
     dta a(dlist_part3)
-	
+    .endl
+    m_info dlist_part3
+
+         org font		; $3000-$3087
+;		ins "dither.fnt"
+		.he 00 00 00 00 00 00 00 00
+:16  	.byte #*16+#,#*16+#,#*16+#,#*16+#,#*16+#,#*16+#,#*16+#,#*16+#            
+		.he 00 00 00 00 00 00 00 00
+
 ;	org $2d00
 	
 scrtabl dta 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -618,24 +640,8 @@ addxtabl .byte 128,64,32,96,48,128,0,0
 addxtabh .byte 2,-1,2,1,1,1,-2,1
 addytabl .byte 200,64,32,96,48,16,0,0
 addytabh .byte 2,-2,1,-1,1,2,-1,2
-
-;xasm specific
-;generates the 2 sinus lookup tables
-        .align $100
-sintabx  dta sin(0,40,256)
-sintaby  dta sin(0,24,256)
-;loader $0c00
-
-
-		org title_screen
-		ins "dsr_blue.mic"	;$1010-2e0f
-
-         org font		; $3000-$3087
-;		ins "dither.fnt"
-		.he 00 00 00 00 00 00 00 00
-:16  	.byte #*16+#,#*16+#,#*16+#,#*16+#,#*16+#,#*16+#,#*16+#,#*16+#            
-
-
+	m_align_page
+:256	.byte $00
 
 		org pmfont		 ;$3400-$37ff
 ;		ins "agasoft.fnt"
@@ -671,6 +677,12 @@ dlist_mode10
 :89	.byte $0f
 	.byte $41
 	.word dlist_mode10
+
+;xasm specific
+;generates the 2 sinus lookup tables
+        .align $100
+sintabx  dta sin(0,40,256)
+sintaby  dta sin(0,24,256)
 
 		org screen1		;$4010-4b4f
 		ins "m10_back.raw"
@@ -1196,24 +1208,24 @@ part3
 		sta dmactl
 		lda #$80
 		sta $d01b
-		    lda #$8e
-		    sta $d012
-		    lda #$0e
-		    sta $d013
-		    lda #$8a
-		    sta $d014
-		    lda #$38 ;88
-		    sta $d015
-		    lda #$36 ;86
-		    sta $d016
-		    lda #$82
-		    sta $d017
-		    lda #$96
-		    sta $d018
-		    lda #$3c ;8c
-		    sta $d019
-		    lda #$9f
-		    sta $d01a
+		lda #$8e
+		sta $d012
+		lda #$0e
+		sta $d013
+		lda #$8a
+		sta $d014
+		lda #$38 ;88
+		sta $d015
+		lda #$36 ;86
+		sta $d016
+		lda #$82
+		sta $d017
+		lda #$96
+		sta $d018
+		lda #$3c ;8c
+		sta $d019
+		lda #$9f
+		sta $d01a
 		;jmp *
 ;TODO		
 ;screen rams setzen 48*60=2880 $b40
@@ -1321,10 +1333,11 @@ bob_loop inc count						;count = vram # number
     sta count			
 loop00    tax								;now set the VRAM adress
     lda scrtabl,x
-    sta ad
+    sta dlist_part3.ad
     lda scrtabh,x
-    sta ad+1
-		lda:cmp:req cloc		;wait 1 frame
+    sta dlist_part3.ad+1
+	
+	lda:cmp:req cloc		;wait 1 frame
 
 	lda posx						;now calculate the movement of the sprite
 	add addx
@@ -1352,6 +1365,7 @@ loop00    tax								;now set the VRAM adress
 	dec count4
 	bmi part4
     jmp new_val
+
 part4 
 ;test exit to fire
 
@@ -1372,9 +1386,9 @@ tunnel_loop
 		lda #$40
 		sta $d01b
 		lda #<(screen_tunnel)
-		sta ad
+		sta dlist_part3.ad
 		lda #>(screen_tunnel)
-		sta ad+1
+		sta dlist_part3.ad+1
 tunnel_loop0		
 
 		lda:cmp:req cloc		;wait 1 frame
@@ -1420,7 +1434,7 @@ filename_part2 .byte c'ARSPART2   '
 setshape lda linetabl,y						;get line adress
 	sta di
 	lda linetabh,y
-	add ad+1				;in which screen should sprite be copied?
+	add dlist_part3.ad+1				;in which screen should sprite be copied?
 	sta di+1
 	iny
 	iny
@@ -1429,7 +1443,7 @@ setshape lda linetabl,y						;get line adress
 	lda linetabl,y						;get line adress
 	sta di2
 	lda linetabh,y
-	add ad+1				;in which screen should sprite be copied?
+	add dlist_part3.ad+1				;in which screen should sprite be copied?
 	sta di2+1	
 	txa					;xpos will be analysed
 	clc

@@ -17,6 +17,7 @@ Author:  Desire
 Info:    Requires 128K RAM
          Stereo, 2nd POKEY required
          Now runs from DOS 2.5
+         Now RESET causes cold start
 
 
 This is the early prototype of the
