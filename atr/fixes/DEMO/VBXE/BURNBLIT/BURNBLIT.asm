@@ -36,6 +36,36 @@ iniad	= $2e2
 	mva #1 coldst
 	mwa #$e477 dosvec
 
+;	mwa #$0100 p1
+;	ldy #0
+;	sty nmien
+;	sty irqen
+;	sei
+;	mva #$fe portb
+;
+;fill1	lda random
+;	sta (p1),y
+;	iny
+;	bne fill1
+;	inc p1+1
+;	lda p1+1
+;	beq fill_done
+;	cmp #$6b
+;	sne
+;	lda #$bc
+;	cmp #$bc
+;	sne
+;	lda #$c0
+;	cmp #$d0
+;	sne
+;	lda #$d8
+;	sta p1+1
+;	jmp fill1
+;fill_done
+;;	.byte 2
+;
+;;	mva #$ff portb
+
 	mwa #file p1
 	mwa #[.len file] l1
 	mwa #$e477 runad
@@ -89,12 +119,6 @@ jsr_iniad
 	jmp (iniad)
 
 jsr_runad
-	ldx #$0d
-	lda #0
-clear_zp
-	sta $00,x
-	inx
-	bne clear_zp
 	jmp (runad)
 
 	.proc get_byte
@@ -107,6 +131,7 @@ clear_zp
 	.endp
 	.endp
 
+clear_start
 	.local file			;Include actual XEX file in first segment
 	ins :filename
 	.endl
@@ -115,5 +140,5 @@ clear_zp
 
 	.endm
 
-	org $513e
-	m_load_high2 zp 'BURNBLIT-Original.xex'
+	org $6bc0
+	m_load_high2 zp 'burning_blitter/nordlicht2020_1.xex'
